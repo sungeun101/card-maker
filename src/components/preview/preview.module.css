@@ -1,5 +1,9 @@
 @value makerGreen from '../../common/colors.css';
 
+.preview{
+    flex-basis:50%;
+}
+
 .title{
     color:makerGreen;
     width: 100%;
@@ -7,7 +11,11 @@
     margin: 1em;
 }
 
-.preview{
-    flex-basis:50%;
-    background-color: pink;
+.cards{
+    width:100%;
+    height:100%;
+    padding:0.5em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items:center
 }
